@@ -31,7 +31,7 @@ run_analysis.R requires reshape2 in order to run.
 ## Instructions to run the code
 
 1. Download the original data zip file and unpack it to your working directory
-2. run the file run_analysis.R, it will produce data file - tidy.csv from original data
-3. Load data with the following command : read.table("tidy.csv")
+2. run the file run_analysis.R, it will produce data file - tidy.txt from original data
+3. Load data with the following command : read.table("tidy.txt")
 
 

@@ -36,7 +36,7 @@ After obtaining original dataset, I applied number of transformations, as stated
 
 ##Cleaned up data set description
 
-Dataset consists of one file - tidy.csv
+Dataset consists of one file - tidy.txt
 
 This file contains the following variables:
 
