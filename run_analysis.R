@@ -15,7 +15,6 @@
 # 
 # Good luck!
 
-require(data.table)
 require(reshape2)
 
 # reading data
@@ -52,6 +51,6 @@ dt.molten <- melt(dt.merged,id.vars = names(dt.merged)[1:2], measure.vars = name
 dt.tidy <- dcast(dt.molten, activity + subject ~ variable, mean)
 
 #writing file
-write.table(dt.tidy,"tidy.csv")
+write.table(dt.tidy,"tidy.csv",row.names=FALSE)
 #dt <- read.table("tidy.csv")
 
